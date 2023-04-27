@@ -1,0 +1,94 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(115deg,rgba(58, 58, 158, 0.8),rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: sans-serif;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+#title {
+    margin-top: 1.5em;
+    margin-bottom: 0;
+}
+
+#description {
+    font-size: 1.2rem;
+    margin: 0.5em 0 1.2em 0;
+}
+
+#survey-form {
+    width: 45vw;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 3rem 2.5rem;
+    color: white;
+    background: #3b3b4f;
+    border-radius: 0.5rem;
+    opacity: 0.98;
+}
+
+#name-label, #email-label, #number-label, #dropdown-label, #recommend-label, #checkbox-label, #suggestions-label {
+    display: block;
+    padding-bottom: 1.5em;
+    font-size: 1.125rem;
+}
+
+#name, #email, #number, #dropdown {
+    display: block;
+    box-sizing: content-box;
+    margin-top: 0.5rem;
+    padding: 0 0.75rem;
+    width: 95%;
+    font-size: inherit;
+    min-height: 2.2em;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+option {
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.radio-label, .checkbox-label {
+    display: block;
+    font-size: 1.125rem;
+    align-items: center;
+}
+
+input[type="radio"], input[type="checkbox"], input[type="submit"] {
+    display: inline-block;
+    margin: 10px 0 0 0;
+    min-height: 1rem;
+    min-width: 1rem;
+}
+
+textarea {
+    width: 95%;
+    min-height: 6rem;
+    margin-top: 0.5rem;
+    padding: 0.75rem 0.75rem;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+#submit {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: #4EE44E;
+    color: inherit;
+    cursor: pointer;
+    font-size: inherit;
+}
